@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>azure-sql</artifactId>
+	<artifactId>docker-jenkins-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>azure-sql</name>
+	<name>docker-jenkins-integration</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -27,14 +27,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-            <version>7.4.1.jre11</version>
-        </dependency>
+	
 	</dependencies>
 
 	<build>
+		<finalName>docker-jenkins-integration</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
